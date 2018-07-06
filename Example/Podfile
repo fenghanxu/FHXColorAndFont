@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'FHXColorAndFont_Example' do
+  pod 'FHXColorAndFont', :path => '../'
+
+  target 'FHXColorAndFont_Tests' do
+    inherit! :search_paths
+
+   pod 'FHXKit'
+  end
+end

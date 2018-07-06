@@ -1,0 +1,23 @@
+PODS:
+  - FHXColorAndFont (0.1.0):
+    - FHXKit
+  - FHXFoundation (0.1.2)
+  - FHXKit (0.1.1):
+    - FHXFoundation
+
+DEPENDENCIES:
+  - FHXColorAndFont (from `../`)
+  - FHXKit
+
+EXTERNAL SOURCES:
+  FHXColorAndFont:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FHXColorAndFont: 422fa15d2c11d41fbc7145525c79c768fafdbc41
+  FHXFoundation: 7cb1fb2098a278ec571bd06fea6673d882b0b2cb
+  FHXKit: aac8d51325a4e6e4204ad31fcf6c33ff10f7e6b2
+
+PODFILE CHECKSUM: eca33795751209caac39d5e5636e76c6ff49d919
+
+COCOAPODS: 1.4.0
